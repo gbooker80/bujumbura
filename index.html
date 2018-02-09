@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Bujumbura Data</title>
+  <title>Barcelona Data</title>
 </head>
 
 <body>
@@ -19,7 +19,7 @@
 
     // Here we are building the URL we need to query the database
     var queryURL = "https://api.openweathermap.org/data/2.5/weather?" +
-      "q=Bujumbura,Burundi&units=imperial&appid=" + APIKey;
+      "q=Barcelona,Spain&units=imperial&appid=" + APIKey;
 
     // Here we run our AJAX call to the OpenWeatherMap API
     d3.json(queryURL, function(error, response) {
